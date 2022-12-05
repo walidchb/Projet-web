@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">    
+    <title>Document</title>
+</head>
+<body>
+    <section class="carousel">
+        <button class="slider-button slider-button-prev" data-slide-direction="prev">&#8592</button>
+        <button class="slider-button slider-button-next" data-slide-direction="next">&#8594</button>
+        <ul class="slides">
+          <li class="slide" data-active-slide>
+            <img src="https://as2.ftcdn.net/v2/jpg/04/12/94/07/1000_F_412940764_1FLJb3nw3Lxns56yLATIy2f4NrqP00ds.jpg" alt="Nature Image #1" />
+          </li>
+          <li class="slide">
+            <img src="https://t3.ftcdn.net/jpg/02/25/86/02/360_F_225860291_OZpPKsi28UsBdyNAfkJdB3YIlI9EjPcy.jpg" alt="Nature Image #2" />
+          </li>
+          <li class="slide">
+            <img src="https://t3.ftcdn.net/jpg/01/07/44/62/360_F_107446290_WnVcxPIJkcGcGlUuo98DRJkUA8IAq0qD.jpg" alt="Nature Image #3" />
+          </li>
+        </ul>
+        <div class="slides-circles">
+          <div data-active-slide></div>
+          <div></div>
+          <div></div>
+        </div>
+      </section>
+
+      <div class="latest">
+          <div class="hr"></div>
+          <h1 class="results">LATEST RESULTS</h1>
+      </div>
+
+
+      <div class="container">
+        <div class="horiwontal"></div>
+
+        <div class="match">
+            <div class="match-header">
+                <div class="match-status">Live</div>
+                <div class="match-tournament"><img src="https://assets.codepen.io/285131/pl-logo.svg" />English Premier League</div>
+                <div class="match-actions">
+                    <button class="btn-icon"><i class="material-icons-outlined">grade</i></button>
+                    <button class="btn-icon"><i class="material-icons-outlined">add_alert</i></button>
+                </div>
+            </div>
+            <div class="match-content">
+                <div class="column">
+                    <div class="team team--home">
+                        <div class="team-logo">
+                            
+                            <img src="https://assets.codepen.io/285131/chelsea.svg" />
+                        </div>
+                        <h2 class="team-name">Chelsea</h2>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="match-details">
+                        <div class="match-date">
+                            3 May at <strong>17:30</strong>
+                        </div>
+                        <div class="match-score">
+                            <span class="match-score-number match-score-number--leading">3</span>
+                            <span class="match-score-divider">:</span>
+                            <span class="match-score-number">1</span>
+                        </div>
+                        <div class="match-time-lapsed">
+                            72'
+                        </div>
+                        <div class="match-referee">
+                            Referee: <strong>Mike dean</strong>
+                        </div>
+                        <div class="match-bet-options">
+                            <button class="match-bet-option">1.48</button>
+                            <button class="match-bet-option">7.84</button>
+                            <button class="match-bet-option">3.24</button>
+                        </div>
+                        <button class="match-bet-place">Watch now</button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="team team--away">
+                        <div class="team-logo">
+                    
+                            <img src="https://resources.premierleague.com/premierleague/badges/t1.svg" />
+                        </div>
+                        <h2 class="team-name"> Man Utd</h2>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+      <script src="script.js"></script>
+</body>
+</html>
