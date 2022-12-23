@@ -27,3 +27,8 @@ const changeSlide = (offset) => {
 };
 
 setInterval(changeSlide.bind(null, 1), 3000);
+
+
+let tab=[{equipe1:"celseq",logo1:"celseq",equipeé:"celseq",equipe2:"celseq"},{},{}]
+
+tab.concat,map
